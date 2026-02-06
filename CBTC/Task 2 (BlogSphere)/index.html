@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlogSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌐 BlogSphere</h1>
+    <p>A space to create, share, and engage with ideas</p>
+</header>
+
+<section class="create-post">
+    <h2>Create a Blog Post</h2>
+    <input type="text" id="title" placeholder="Enter blog title">
+    <textarea id="content" placeholder="Write your blog content here..."></textarea>
+    <button onclick="addPost()">Publish Blog</button>
+</section>
+
+<section class="posts">
+    <h2>Explore Blogs</h2>
+    <div id="postsContainer"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
